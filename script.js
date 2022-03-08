@@ -1,5 +1,8 @@
 const starWrapper = document.querySelector(".stars");
 const stars = document.querySelectorAll(".stars a");
+const canvas = document.getElementById("canvas").getContext("2d");
+canvas.fillStyle = "#0000FF"
+
 
 stars.forEach((star, clickedIdx) => {
   star.addEventListener("click", () => {
@@ -10,5 +13,7 @@ stars.forEach((star, clickedIdx) => {
       }
     });
     console.log(`star of index ${clickedIdx + 1} was clicked`);
+    canvas.fillText(`Your Rating: ${clickedIdx + 1}`, 0, 10);
   });
 });
+

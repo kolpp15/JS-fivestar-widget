@@ -35,3 +35,7 @@ body {
 .stars a.active {
   opacity: 100%;
 }
+
+#rate {
+  margin-bottom: 0px;
+}
