@@ -4,4 +4,4 @@
 
 After clicking, the widget will display the rating the user submitted. 
 
-!["Widget"]()
+!["Widget"](https://github.com/kolpp15/JS-fivestar-widget/blob/main/Widget.png?raw=true)
